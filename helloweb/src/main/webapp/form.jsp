@@ -32,6 +32,10 @@
 		음주 <input type="checkbox" name="hobby" value="drinking">
 		요리 <input type="checkbox" name="hobby" value="cooking">
 		요리 <input type="checkbox" name="hobby" value="swimming">
+		<br/><br/>
+		
+		자기소개:
+		<textarea name = "profile"></textarea>
 		
 		<input type="submit" value="회원가입"/>
 		<br/><br/>		

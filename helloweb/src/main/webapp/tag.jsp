@@ -39,7 +39,7 @@
 	<br/>
 	
 	<a href="form.jsp" >폼으로가기</a>
-	<a href="/helloweb/hello.jsp">hello</a>	
+	<a href="/helloweb/hello.jsp" >hello</a>	
 	<p>
 		
 	</p>	
