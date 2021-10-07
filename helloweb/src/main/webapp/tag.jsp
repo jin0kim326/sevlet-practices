@@ -15,5 +15,27 @@
 	<h6>Hello World</h6>
 </body>
 
-<img src ='helloweb/assets/images/1001.jpeg' />
+<table border='1' cellspacing='0' cellpadding="10">
+		<tr>
+			<th>글번호</th>
+			<th>글제목</th>
+			<th>작성자</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>안녕</td>
+			<td>둘리</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>안녕</td>
+			<td>마이콜</td>
+		</tr>
+	</table>
+	<br/>
+	
+	
+<img src ='/helloweb/assets/images/1001.jpeg' style="width:150px; border:1px solid #999"/>
+<img src ='assets/images/1001.jpeg' style="width:150px; border:1px solid #999"/>
+
 </html>
