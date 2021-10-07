@@ -13,9 +13,8 @@
 	<h4>Hello World</h4>
 	<h5>Hello World</h5>
 	<h6>Hello World</h6>
-</body>
-
-<table border='1' cellspacing='0' cellpadding="10">
+	
+	<table border='1' cellspacing='0' cellpadding="10">
 		<tr>
 			<th>글번호</th>
 			<th>글제목</th>
@@ -33,9 +32,18 @@
 		</tr>
 	</table>
 	<br/>
+		
+	<img src ='/helloweb/assets/images/1001.jpeg' style="width:150px; border:1px solid #999"/>
+	<br/>
+	<img src ='assets/images/1001.jpeg' style="width:150px; border:1px solid #999"/>
+	<br/>
 	
-	
-<img src ='/helloweb/assets/images/1001.jpeg' style="width:150px; border:1px solid #999"/>
-<img src ='assets/images/1001.jpeg' style="width:150px; border:1px solid #999"/>
+	<a href="form.jsp" >폼으로가기</a>
+	<a href="/helloweb/hello.jsp">hello</a>	
+	<p>
+		
+	</p>	
+</body>
+
 
 </html>
