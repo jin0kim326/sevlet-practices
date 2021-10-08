@@ -2,8 +2,8 @@ package com.douzone.dao.test;
 
 import java.util.List;
 
-import com.douzone.dao.GuestbookDao;
-import com.douzone.vo.GuestbookVo;
+import com.douzone.guestbook.dao.GuestbookDao;
+import com.douzone.guestbook.vo.GuestbookVo;
 
 public class GuestbookDaoTest {
 

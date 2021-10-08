@@ -1,4 +1,4 @@
-package com.douzone.vo;
+package com.douzone.guestbook.vo;
 
 import java.util.Date;
 

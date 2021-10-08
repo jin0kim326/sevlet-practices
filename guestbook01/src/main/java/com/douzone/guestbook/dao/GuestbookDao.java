@@ -1,4 +1,4 @@
-package com.douzone.dao;
+package com.douzone.guestbook.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.douzone.vo.GuestbookVo;
+import com.douzone.guestbook.vo.GuestbookVo;
 
 public class GuestbookDao {
 	public boolean insert(GuestbookVo vo) {
