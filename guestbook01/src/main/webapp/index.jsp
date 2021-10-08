@@ -5,7 +5,7 @@
 <title>방명록</title>
 </head>
 <body>
-	<form action="" method="post">
+	<form action="add.jsp" method="post">
 	<table border=1 width=500>
 		<tr>
 			<td>이름</td><td><input type="text" name="name"></td>
@@ -25,7 +25,7 @@
 			<td>[1]</td>
 			<td>안대혁</td>
 			<td>2013-01-15</td>
-			<td><a href="">삭제</a></td>
+			<td><a href="./deleteform.jsp">삭제</a></td>
 		</tr>
 		<tr>
 			<td colspan=4>안녕하세요</td>
