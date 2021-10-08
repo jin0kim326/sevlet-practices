@@ -1,4 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String no = request.getParameter("no");
+
+%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -6,7 +10,7 @@
 </head>
 <body>
 	<form method="post" action="delete.jsp">
-		<input type='hidden' name="id" value="">
+		<input type='hidden' name="no" value=<%=no %>>
 		<input type="password" name="password" placeholder="password">
 		<input type="submit" value="확인">
 	</form>
