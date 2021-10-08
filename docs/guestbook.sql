@@ -29,3 +29,14 @@ DELETE
    
 
 SELECT now(); 
+
+
+SELECT no,
+		   name,
+           reg_date,
+		   date_format(reg_date, '%Y/%m/%d %H:%i:%s'), 
+           date_format(reg_date, '%Y/%m/%d %h:%i:%s'), 
+		   message           
+	 FROM guestbook
+ ORDER BY reg_date desc
+ ;

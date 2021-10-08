@@ -70,7 +70,7 @@ public class GuestbookDao {
 				//SQL 준비
 				String sql = "SELECT no,"
 						+ "		     name,"
-						+ "		     date_format(reg_date, '%Y-%m-%d %H:%m:%s'),"
+						+ "		     date_format(reg_date,'%Y-%m-%d %h:%i:%s'),"
 						+ "		     message"
 						+ "	 	FROM guestbook"
 						+ " ORDER BY reg_date desc";
